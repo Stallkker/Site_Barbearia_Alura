@@ -1,0 +1,119 @@
+body{
+    font-family: 'Langar', sans-serif;
+}
+
+.caixa-header{
+    background: #cccccc;
+}
+
+.h1-img-header{
+    display: inline-block;
+    margin: 0 8% 0 8%;
+}
+
+.img-header{
+    width: 80%;
+}
+
+.nav-header{
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    top: 13%;
+}
+
+.itens-header{
+    display: inline-block;
+    font-size: 2em;
+    margin: 0 0 0 10%;
+}
+
+.navegacao-header{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navegacao-header:hover{
+    text-decoration: 15% underline #000000;
+}
+
+.navegacao-header:active{
+    color: #ffa600;
+}  
+
+.caixa-titulo{
+    margin: 9% 0 0 0;
+    text-align: center;
+}
+
+.titulo-ul{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.caixa-ul{
+    width: 100%;
+    margin: 4% 0 8% 0;
+}
+
+.iten-principal{
+    display: inline-block;
+    text-align: center;
+    border: 5px solid #000000;
+    border-radius: 6%;
+    width: 22%;
+    margin: 0 3% 0 3%;
+}
+
+.iten-principal:first-child{
+    margin: 0 3% 0 9%;
+}
+
+.iten-principal:hover{
+    width: 24%;
+    border: 5px solid #000000;
+    cursor:pointer;
+}
+
+.iten-principal:active{
+    width: 24%;
+    border: 5px solid #ffa600;
+    color: #ffa600;
+}
+
+.h2-itens{
+    font-size: 2em;
+    margin: 15% 0 4% 0;
+    font-size: 2em;
+}
+
+.iten-img{
+    width: 75%;
+    margin: 4% 0 4% 0;
+}
+
+.texto-produto{
+    text-align: center;
+    width: 80%;
+    margin: 4% auto 10% auto;
+    font-size: 1em;
+}
+
+.preco-produto{
+    margin: 4% auto 15% auto;
+    font-size: 1em;
+}
+
+.caixa-footer{
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+.img-footer{
+    width: 15%;
+}
+
+.p-footer{
+    color: #ffffff;
+    font-size: 1em;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/contato.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa-header">
+                <h1 class="h1-img-header">
+                    <img class="img-header" src="images/logo.png" alt="Logo barbearia alura">
+                </h1>
+                <nav  class="nav-header">
+                    <ul>
+                        <li class="itens-header"><a class="navegacao-header" href="index.html">Home</a></li>
+                        <li class="itens-header"><a class="navegacao-header" href="Produtos.html">Serviços</a></li>
+                        <li class="itens-header"><a class="navegacao-header" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form class="caixa-formulario">
+                <fieldset class="caixa-preenchimento">
+                    <label class="label-preenchimento" for="nome">Nome</label>
+                    <input class="input-preenchimento" placeholder="Nome" required type="text" id="nome">
+
+                    <label class="label-preenchimento" for="email">Email</label>
+                    <input class="input-preenchimento" placeholder="Email@email.com" required type="email" id="email">
+
+                    <label class="label-preenchimento" for="telefone">Telefone</label>
+                    <input class="input-preenchimento" placeholder="(00)00000-0000" required type="tel" id="telefone">
+
+                    <label class="label-preenchimento" for="mensagem">Mensagem</label>
+                    <textarea class="input-preenchimento" placeholder="Mensagem" required id="mensagem" cols="70" rows="10"></textarea>
+                </fieldset>
+
+                <fieldset class="caixa-radio">
+                    <legend class="p-radio">Por qual meio quer receber o contato?</legend>
+                    
+                    <label class="label-radio" for="radio-whatsapp"><input class="radio" type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                    
+                    <label class="label-radio" for="radio-telefone"><input class="radio" type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                    <label class="label-radio" for="radio-email"><input class="radio" type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                </fieldset>
+
+                <select class="caixa-periodo">
+                        <option class="periodo" value="">Manhã</option>
+                        <option class="periodo" value="">Tarde</option>
+                        <option class="periodo" value="">Noite</option>
+                </select>  
+
+                <label class="check-box"><input checked type="checkbox">Quero receber informações</label>
+                
+                <input class="enviar" type="submit" value="Enviar">
+            
+            </form>
+
+            <table class="caixa-tabela">
+                <thead class="thead">
+                    <tr class="thead-tr">
+                        <th class="thead-th">Dia</th>
+                        <th class="thead-th">Horario</th>
+                    </tr>
+                </thead>
+                <tbody class="caixa-tbody">
+                    <tr class="body-tr">
+                        <td class="tbody-td">Terça</td>
+                        <td class="tbody-td">12h - 18h</td>
+                    </tr>
+                    <tr class="body-tr">
+                        <td class="tbody-td">Quarta</td>
+                        <td class="tbody-td">12h - 18h</td>
+                    </tr>
+                    <tr class="body-tr">
+                        <td class="tbody-td">Quinta</td>
+                        <td class="tbody-td">12h - 18h</td>
+                    </tr>
+                    <tr class="body-tr">
+                        <td class="tbody-td">sexta</td>
+                        <td class="tbody-td">12h - 18h</td>
+                    </tr>
+                    <tr class="body-tr">
+                        <td class="tbody-td">Sabado</td>
+                        <td class="tbody-td">10h - 20h</td>
+                    </tr>
+                    <tr class="body-tr">
+                        <td class="tbody-td">Domingo</td>
+                        <td class="tbody-td">12h - 16h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <div class="caixa-footer">
+                <img class="img-footer" src="images/logo-branco.png" alt="Logo barbearia alura">
+                <p class="p-footer"> &copy Barbearia Alura</p>
+            </div>
+        </footer>
+    </body>
+</html>

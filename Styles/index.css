@@ -1,0 +1,287 @@
+body{
+    font-family: 'Langar', sans-serif;
+}
+
+.caixa-header{
+    background: #cccccc;
+}
+
+.h1-img-header{
+    display: inline-block;
+    margin: 0 8% 0 8%;
+}
+
+.img-header{
+    width: 80%;
+}
+
+.nav-header{
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    top: 13%;
+}
+
+.itens-header{
+    display: inline-block;
+    font-size: 2em;
+    margin: 0 0 0 10%;
+}
+
+.navegacao-header{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navegacao-header:hover{
+    text-decoration: 15% underline #000000;
+}
+
+.navegacao-header:active{
+    color: #ffa600;
+}  
+
+.img-banner{
+    width: 100%;
+}
+
+.caixa-principal{
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    text-align: center;
+    margin: 6% 0 4% 0;
+}
+
+.img-utensilios{
+    float: left;
+    width: 15%;
+    margin: 0 2% 0 0;
+}
+
+.texto-principal{
+    margin: 0 0 4% 0;
+}
+
+.div-mapa{
+    text-align: center;
+    margin: 6% 0 6% 0;
+    
+}
+
+.titulo-mapa{
+    font-size: 2em;
+    margin: 2% 0 3% 0;
+}
+
+.mapa{
+    width: 100%;
+}
+
+.beneficios{
+    margin:  6% 0 6% 0;
+}
+
+.titulo-beneficios{
+    font-size: 2em;
+    text-align: center;
+    margin: 2% 0 4% 0;
+}
+
+.itens-beneficios{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.itens{
+    margin: 0 0 8% 0;
+    font-weight: bold;
+    padding: 6% 0 0 16%;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.div-video{
+    text-align: center;
+    margin: 10% 0 0 0;
+    padding: 0 0 6% 0;
+}
+
+.video{
+    width: 60%;
+}
+
+.img-beneficios{
+    width: 50%;
+}
+
+.caixa-footer{
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+.img-footer{
+    width: 15%;
+}
+
+.p-footer{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 685px) {
+    .caixa-header{
+        padding: 0 0 4% 0;
+        text-align: center;
+    }
+    
+    .h1-img-header{
+        display: block;
+    }
+
+    .img-header{
+        width: 38%;
+    }
+    
+    .nav-header{
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+
+    .itens-header:first-child{
+        margin: 0;
+    }
+
+    .itens-header{
+        font-size: 1.5em;
+    }
+
+    .caixa-principal{
+        width: 100%;
+    }
+
+    .titulo-principal{
+        font-size: 1.5em;
+        padding: 3% 0 3%;
+    }
+
+    .titulo-mapa{
+        font-size: 1.5em;
+        padding: 3% 0 3%;
+    }
+
+    .titulo-beneficios{
+        font-size: 1.5em;
+        padding: 3% 0 3%;
+    }
+
+    .itens-beneficios{
+        display: block;
+        width: 100%;
+    }
+
+    .itens{
+        text-align: center;
+        margin: 0 auto 2% auto;
+        font-weight: bold;
+        padding: 6% 0 0 0;
+        list-style-type: disc;
+        list-style-position: inside;
+        font-size: 0.9em;
+    }
+
+    .itens-beneficios{
+        margin: 0 0 10%;
+    }
+
+    .img-beneficios{
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    .itens-header{
+        display: block;
+        margin: 2% 0 2%;
+    }
+
+    .caixa-principal{
+        width: 100%;
+        margin: auto;
+    }
+
+    .itens{
+        text-align: center;
+        margin: 0 auto 2% auto;
+        font-weight: bold;
+        padding: 6% 0 0 0;
+        list-style-type: disc;
+        list-style-position: inside;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 298px) {
+    .h1-img-header{
+        display: block;
+    }
+    
+    .nav-header{
+        display: block;
+        width: 100%;
+    }
+
+    .itens-header{
+        display: block;
+        width: 100%;
+        margin: 2% 0 2%;
+    }
+
+    .caixa-principal{
+        width: 100%;
+        margin: auto;
+    }
+
+    .itens{
+        text-align: center;
+        margin: 0 auto 2% auto;
+        font-weight: bold;
+        padding: 6% 0 0 0;
+        list-style-type: disc;
+        list-style-position: inside;
+        font-size: 0.9em;
+    }
+}
+
+@media only all and (max-width: 778px) {
+    .itens-header{
+        display: inline-block;
+        margin: 2% 2% 2% 2%;
+    }
+
+    .itens-header:first-child{
+        display: inline-block;
+        margin: 2% 2% 2%;
+    }
+
+    .itens-header:last-child{
+        display: inline-block;
+        margin: 2% 0 2% 2%;
+    }
+
+    .h1-img-header{
+        display: inline-block;
+        margin: 0 8% 0 8%;
+    }
+}

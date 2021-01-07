@@ -1,0 +1,150 @@
+body{
+    font-family: 'Langar', sans-serif;
+}
+
+.caixa-header{
+    background: #cccccc;
+}
+
+.h1-img-header{
+    display: inline-block;
+    margin: 0 8% 0 8%;
+}
+
+.img-header{
+    width: 80%;
+}
+
+.nav-header{
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+    top: 13%;
+}
+
+.itens-header{
+    display: inline-block;
+    font-size: 2em;
+    margin: 0 0 0 10%;
+}
+
+.navegacao-header{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navegacao-header:hover{
+    text-decoration: 15% underline #000000;
+}
+
+.navegacao-header:active{
+    color: #ffa600;
+}  
+
+.caixa-formulario{
+    margin: 8% 0 4% 6%;
+}
+
+.label-preenchimento{
+    display: block;
+    font-size: 1em;
+}
+
+.input-preenchimento{
+    margin: 1% 0 5% 0;
+    font-size: 1em;
+    width: 45%;
+    height: 3em;
+    border: 2px solid #c0c0c0;
+    padding: 1% 1% 0 1%;
+}
+
+.input-preenchimento:last-child{
+    margin: 1% 0 5% 0;
+    font-size: large;
+    width: 45%;
+    height: 10em;
+    border: 2px solid #c0c0c0;
+    padding: 1% 1% 0 1%;
+}
+
+.input-preenchimento:hover{
+    border: 2px solid #000000;
+}
+
+.caixa-radio{
+    margin: 0 0 1% 0;
+}
+
+.p-radio{
+    margin: 0 0 1% 0;
+}
+
+.label-radio{
+    display: block;
+}
+
+.caixa-periodo{
+    display: block;
+    margin: 0 0 3% 0;
+}
+
+.check-box{
+    display: block;
+    margin: 0 0 3%;
+}
+
+.enviar{
+    width: 25%;
+    height: 3em;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 4%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.enviar:hover{
+    transition: 800ms;
+    border: 2px solid #000000;
+    background: #ffa600;
+    width: 28%;
+}
+
+.caixa-tabela{
+    margin: 0 0 8% 6%;
+    font-size: 1em;
+}
+
+.thead{
+    font-weight: bold;
+}
+
+.thead-th{
+    border: 2px solid #000000;
+    padding: 3%;
+}
+
+.tbody{
+    font-size: 1em;
+}
+
+.tbody-td{
+    border: 2px solid #000000;
+    padding: 3%;
+}
+
+.caixa-footer{
+    background: url("bg.jpg");
+    text-align: center;
+}
+
+.img-footer{
+    width: 15%;
+}
+
+.p-footer{
+    color: #ffffff;
+    font-size: 1em;
+}
